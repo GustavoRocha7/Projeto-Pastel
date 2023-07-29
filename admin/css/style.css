@@ -1,0 +1,527 @@
+/* Customize website's scrollbar like Mac OS
+
+/* total width */
+#tabela::-webkit-scrollbar {
+    background-color: #fff;
+    width: 5px;
+    height: 10px;
+}
+
+/* background of the scrollbar except button or resizer */
+#tabela::-webkit-scrollbar-track {
+    background-color: #fff;
+}
+
+/* scrollbar itself */
+#tabela::-webkit-scrollbar-thumb {
+    background-color: #babac0;
+    border-radius: 16px;
+}
+
+/* set button(top and bottom of the scrollbar) */
+#tabela::-webkit-scrollbar-button {
+    display:none;
+}
+
+/* total width */
+#tabela2::-webkit-scrollbar {
+    background-color: #fff;
+    width: 5px;
+}
+
+/* background of the scrollbar except button or resizer */
+#tabela2::-webkit-scrollbar-track {
+    background-color: #fff;
+}
+
+/* scrollbar itself */
+#tabela2::-webkit-scrollbar-thumb {
+    background-color: #babac0;
+    border-radius: 16px;
+}
+
+/* set button(top and bottom of the scrollbar) */
+#tabela2::-webkit-scrollbar-button {
+    display:none;
+}
+
+/* total width */
+#tabelaPro::-webkit-scrollbar {
+    background-color: #fff;
+    width: 5px;
+}
+
+/* background of the scrollbar except button or resizer */
+#tabelaPro::-webkit-scrollbar-track {
+    background-color: #fff;
+}
+
+/* scrollbar itself */
+#tabelaPro::-webkit-scrollbar-thumb {
+    background-color: #babac0;
+    border-radius: 16px;
+}
+
+/* set button(top and bottom of the scrollbar) */
+#tabelaPro::-webkit-scrollbar-button {
+    display:none;
+}
+
+/*CSS Index*/
+body{
+	background-color: #b90504;
+}
+#voltar-index a{
+	background-color: #800f2f;
+	color: #f6f6f6;
+}
+#voltar-index a:hover{
+	background-color: #89374E;
+}
+#index-titulo{
+	background-color: #e8e8e8;
+	color: #990100;
+}
+#caixas{
+	border: none;
+	border-radius: 20px;
+	background: #bb0707;
+	box-shadow:  8px 8px 23px #890505,-8px -8px 23px #ed0909;
+	overflow: hidden;
+}
+#caixa-titulo{
+	background-color: #e8e8e8;
+	color: #333333;
+}
+#i-index{
+	color: #e8e8e8;
+}
+#btn-index{
+	height: 50px;
+	background-color: #333333;
+	color: #f6f6f6;
+}
+
+#btn-index:hover{
+	border: 2px solid #333333;
+	color: #333333;
+	background-color: #f6f6f6;
+}
+
+/*CSS Produtos*/
+#voltar-produtos{
+	background-color: #800f2f;
+	color: #f6f6f6;
+}
+#voltar-produtos:hover{
+	background-color: #89374E;
+}
+#produtos-titulo{
+	background-color: #e8e8e8;
+	color: #990100;
+}
+#altera-geral{
+	background-color:  #f6f6f6;
+	color: #6c757d;
+	font-weight: 500;
+}
+
+#altera-geral:hover{
+	background-color: #495057;
+	color: #f6f6f6;
+}
+#formP{
+	justify-content: center;
+}
+#lblBusca{
+	color: #f6f6f6;
+	font-size: 20px;
+	margin-bottom: 0;
+	margin-left: -15px;
+}
+#busca{
+	width: 250px;
+}
+section{
+	padding: 25px;
+}
+#produtos-article{
+	justify-content: center;
+	margin: 0px;
+	border-radius: 15px;
+	background: #bb0707;
+	box-shadow:  8px 8px 23px #890505,
+             -8px -8px 23px #ed0909;
+}
+#tabelaPro{
+	width: 70%;
+	border-radius: 8px;
+	background-color: #f5f3f4;
+	max-height: 650px;
+	overflow: auto;
+}
+#tabelaPro tr,th{
+	font-size: 14px;
+}
+#excluir{
+	border: none;
+	background-color: rgba(0,0,0,0);
+}
+#excluir:hover{
+	cursor: pointer;
+}
+#pesquisarP{
+	background-color: #6c757d;
+	color: #f6f6f6;
+}
+
+#pesquisarP:hover{
+	background-color: #495057;
+}
+
+#form-produtos{
+	margin-left: 50px;
+	margin-right: 50px;
+	padding: 25px;
+	border-radius: 15px;
+	background: #bb0707;
+	box-shadow:  8px 8px 23px #890505,-8px -8px 23px #ed0909;
+}
+#div-form{
+	margin: 0;
+}
+
+/*CSS de Vendas*/
+#vendas-titulo{
+	background-color: #e8e8e8;
+	color: #990100;
+}
+#tabela{
+	font-size: 14px;
+	border-radius: 8px;
+	background-color: #f5f3f4;
+	width: 700px;
+	max-height: 550px;
+	overflow: auto;
+}
+#tabela2{
+	font-size: 14px;
+	border-radius: 8px;
+	background-color: #f5f3f4;
+	width: 700px;
+	max-height: 600px;
+	overflow: auto;
+	margin-bottom: 10px;
+	margin-left: 150px;
+}
+#tabs{
+	border-radius: 15px;
+	background: #bb0707;
+	box-shadow:  8px 8px 23px #890505,-8px -8px 23px #ed0909;
+	justify-content: center;
+	height: auto;
+}
+.total{
+	width: 400px;
+	height: 50px;
+	margin-top: 5px;
+	padding: 7px;
+	text-align: center;
+	font-size: 20px;
+	border-radius: 10px;
+	border-style: solid;
+	border-width: 2px;
+	background-color: #DCDCDC;
+	position: relative;
+	left: 20%;
+}
+#form1{
+	justify-content: space-between;
+}
+#dataI{
+	background-color: #e8e8e8;
+	width: 150px;
+	height: 30px;
+	text-align: center;
+	padding: 5px;
+	margin-right: 15px;
+	border-radius: 25px;
+}
+#lblDtI{
+	font-size: 20px;
+	margin-left: 60px;
+	color: #f6f6f6;
+}
+#dataF{
+	background-color: #e8e8e8;
+	width: 150px;
+	height: 30px;
+	padding: 5px;
+	text-align: center;
+	border-radius: 25px;
+}
+#lblDtF{
+	font-size: 20px;
+	color: #f6f6f6;
+}
+#pesquisar{
+	background-color: #6c757d;
+	color: #f6f6f6;
+}
+
+#pesquisar:hover{
+	background-color: #495057;
+}
+@media only screen and (max-width: 1600px){
+	#tabela{
+		width: 500px;
+		overflow: auto;
+	}
+	#tabela2{
+		width: 500px;
+		max-height: 600px;
+		overflow: auto;
+	}
+}
+
+@media only screen and (max-width: 1200px){
+	#tabela{
+		width: 500px;
+		overflow: auto;
+	}
+	#tabela2{
+		width: 500px;
+		max-height: 600px;
+		overflow: auto;
+		margin-left: 70px;
+	}
+}
+
+@media only screen and (max-width: 1150px){
+	#tabela{
+		width: 600px;
+		overflow: auto;
+	}
+	#tabela2{
+		width: 600px;
+		max-height: 600px;
+		overflow: auto;
+		margin: 0;
+	}
+	.total{
+		left: 17%;
+	}
+}
+@media only screen and (max-width: 900px){
+	#tabelaPro{
+		width: 100%;
+	}
+}
+@media only screen and (max-width: 800px){
+	#lblBusca{
+		margin-left: ;
+	}
+	#caixa-pesquisa{
+		margin-left: ;
+	}
+	#caixa-altera{
+		margin-left: ;
+	}
+}
+@media only screen and (max-width: 767px){
+	/*CSS Produtos*/
+	#lblBusca{
+		margin-left: 13%;
+	}
+	#caixa-pesquisa{
+		margin-left: 15%;
+	}
+	#caixa-altera{
+		margin-left: 15%;
+	}
+	/*CSS Vendas*/
+	#tabela{
+		width: 600px;
+		overflow: auto;
+	}
+	#tabela2{
+		width: 600px;
+		max-heightt: 600px;
+		overflow: auto;
+		margin: 0;
+	}
+	.total{
+		left: 17%;
+	}
+	#pesquisar{
+		margin-top: 5px;
+		width: 300px;
+		position: relative;
+		left: 25%;
+	}
+}
+@media only screen and (max-width: 665px){
+	#tabela{
+		width: 500px;
+		overflow: auto;
+	}
+	#tabela2{
+		width: 500px;
+		max-height: 600px;
+		overflow: auto;
+		margin: 0;
+	}
+	.total{
+		left: 13%;
+	}
+}
+@media only screen and (max-width: 600px){
+	/*CSS produtos*/
+	#lblBusca{
+		position: relative;
+		margin-left: unset;
+		left: 13%;
+	}
+	#caixa-pesquisa{
+		position: relative;
+		margin-left: unset;
+		left: 15%;
+	}
+	#caixa-altera{
+		position: relative;
+		margin-left: unset;
+		left: 15%;
+	}
+	/*CSS Vendas*/
+	#tabela{
+		width: 425px;
+		max-height: 500px;
+		overflow: auto;
+	}
+	#tabela2{
+		width: 425px;
+		max-height: 500px;
+		overflow: auto;
+		margin: 0px;
+	}
+	.total{
+		width: 350px;
+		left: 10%;
+	}
+	#dataI{
+		width: 150px;
+		height: 30px;
+		text-align: center;
+		border-radius: 25px;
+	}
+	#lblDtI{
+		font-size: 20px;
+		margin-left: 175px;
+	}
+	#dataF{
+		width: 150px;
+		height: 30px;
+		text-align: center;
+		margin-left: 15px;
+		border-radius: 25px;
+	}
+	#lblDtF{
+		font-size: 20px;
+		margin-left: 175px;
+	}
+	#pesquisar{
+		width: 300px;
+		margin-top: 10px;
+		position: relative;
+		left: 23%;
+	}
+}
+@media only screen and (max-width: 500px){
+	/*CSS produtos*/
+	#lblBusca{
+		position: relative;
+		left: 6%;
+	}
+	#pesquisarP{
+		margin-right: -100px;
+	}
+	#caixa-pesquisa{
+		position: relative;
+		left: 9%;
+	}
+	#caixa-altera{
+		position: relative;
+		left: 9%;
+	}
+}
+@media only screen and (max-width: 450px){
+	/*CSS produtos*/
+	#lblBusca{
+		position: relative;
+		left: -2%;
+	}
+	#pesquisarP{
+		margin-right: -100px;
+	}
+	#caixa-pesquisa{
+		position: relative;
+		left: 1%;
+	}
+	#caixa-altera{
+		position: relative;
+		left: 3%;
+	}
+	/*CSS Vendas*/
+	#tabela{
+		width: 350px;
+		max-height: 500px;
+		overflow: auto;
+		margin: 0px;
+	}
+	#tabela2{
+		width: 350px;
+		max-height: 500px;
+		overflow: auto;
+	}
+	.total{
+		width: 300px;
+		height: 40px;
+		margin-top: 5px;
+		padding: 3px;
+		text-align: center;
+		font-size: 20px;
+		border-radius: 10px;
+		border-style: solid;
+		border-width: 2px;
+		background-color: #DCDCDC;
+		position: relative;
+		left: 8%;
+	}
+	#dataI{
+		width: 150px;
+		height: 30px;
+		text-align: center;
+		border-radius: 25px;
+	}
+	#lblDtI{
+		font-size: 20px;
+		margin-left: 60px;
+	}
+	#dataF{
+		width: 150px;
+		height: 30px;
+		text-align: center;
+		margin-left: 15px;
+		border-radius: 25px;
+	}
+	#lblDtF{
+		font-size: 20px;
+		margin-left: 60px;
+	}
+	#pesquisar{
+		width: 300px;
+		margin-top: 10px;
+		position: relative;
+		left: 10%;
+	}
+}

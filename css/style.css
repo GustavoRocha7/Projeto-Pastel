@@ -1,0 +1,118 @@
+body{
+	background-color: black;
+	padding: 25px;
+	padding-top: 10px;
+	padding-bottom: 0px;
+}
+#body-index{
+	background-color: #b90504;
+}
+#h1-index{
+	background-color: #e8e8e8;
+	color: #990100;
+}
+#menu{
+	border-radius: 34px;
+	background: #b90504;
+	box-shadow:  11px 11px 22px #940403,
+             -11px -11px 22px #de0605;
+    padding: 25px;
+}
+#btn-index{
+	background-color: #333333;
+	color: #f6f6f6;
+	width: 75%;
+	margin-left: 13%;
+}
+#btn-index:hover{
+	color: #333333;
+	background-color: #f6f6f6;
+}
+#produto{
+	background-color: #EEB422;
+	width: 85%;
+	height: 50px;
+	border-radius: 10px;
+	font-size: 30px;
+	font-weight: 500;
+	color: black;
+	margin-bottom: 7px;
+	margin-right: 5px;
+	padding-left: 10px;
+	padding-top: 3px;
+	text-align: left;
+}
+
+#preco{
+	background-color: #EEB422;
+	width: auto;
+	height: 50px;
+	border-radius: 10px;
+	font-size: 30px;
+	font-weight: 500;
+	color: black;
+	margin-bottom: 7px;
+	margin-right: 5px;
+	text-align: center;
+	padding: 4px;
+
+}
+.esgotado{
+	float: right;
+	width: 100px;
+	margin-top: 7px;
+	margin-right: 25px;
+	float: right;
+	border-radius: 10px;
+	font-size: 20px;
+	font-weight: 700;
+	text-align: center;
+	animation: pisca 3s ease infinite;
+
+}
+
+@keyframes pisca{
+	0%{background-color: red}
+	50%{background-color: #EEB422}
+	100%{background-color: red}
+}
+.linha{
+	width: 40%;
+	margin-bottom: 5px;
+	display: flex;
+	align-items: center;
+}
+
+#titulo{
+	background-color: black;
+	color: #EEB422;
+	font-weight: 700;
+	border-width: 5px;
+	border-color: #EEB422;
+}
+#simples{
+	height: 750px;
+	overflow: scroll;
+	justify-content: space-between;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-image: url('../cardapio/img/logo.png');
+	background-size: 300px;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+#especiais{
+	height: 151px;
+	overflow: scroll;
+	justify-content: space-between;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+::-webkit-scrollbar { 
+	  width: 0px; 
+	  background-color: transparent; 
+	}
+

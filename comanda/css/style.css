@@ -1,0 +1,390 @@
+/* total width */
+#grid-itens::-webkit-scrollbar {
+    background-color: #fff;
+    width: 5px;
+    height: 10px;
+}
+
+/* background of the scrollbar except button or resizer */
+#grid-itens::-webkit-scrollbar-track {
+    background-color: #fff;
+}
+
+/* scrollbar itself */
+#grid-itens::-webkit-scrollbar-thumb {
+    background-color: #babac0;
+    border-radius: 16px;
+}
+
+/* set button(top and bottom of the scrollbar) */
+#grid-itens::-webkit-scrollbar-button {
+    display:none;
+}
+
+/* total width */
+#scrollP::-webkit-scrollbar {
+    background-color: #fff;
+    width: 5px;
+    height: 10px;
+}
+
+/* background of the scrollbar except button or resizer */
+#scrollP::-webkit-scrollbar-track {
+    background-color: #fff;
+}
+
+/* scrollbar itself */
+#scrollP::-webkit-scrollbar-thumb {
+    background-color: #babac0;
+    border-radius: 16px;
+}
+
+/* set button(top and bottom of the scrollbar) */
+#scrollP::-webkit-scrollbar-button {
+    display:none;
+}
+
+/* total width */
+#comanda::-webkit-scrollbar {
+    background-color: #fff;
+    width: 5px;
+    height: 10px;
+}
+
+/* background of the scrollbar except button or resizer */
+#comanda::-webkit-scrollbar-track {
+    background-color: #fff;
+}
+
+/* scrollbar itself */
+#comanda::-webkit-scrollbar-thumb {
+    background-color: #babac0;
+    border-radius: 16px;
+}
+
+/* set button(top and bottom of the scrollbar) */
+#comanda::-webkit-scrollbar-button {
+    display:none;
+}
+
+body{
+	background-color: #f5f3f4;
+}
+#voltar-index{
+	background-color: #800f2f;
+	color: #f6f6f6;
+}
+#voltar-index:hover{
+	background-color: #89374E;
+}
+#body-index{
+	background-color: #b90504;
+}
+#index-titulo{
+	background-color: #e8e8e8;
+	color: #990100;
+}
+#criarC-titulo{
+	border-radius: none;
+	background-color: #ba181b;
+	color: #f5f3f4;
+}
+#comanda{
+	width: 40%;
+	max-height: 700px;
+	border-radius: 10px;
+	overflow: auto;
+	margin-top: 10px;
+	margin-right: 20px;
+}
+#produto{
+	width: 400px;
+	border: none;
+	font-weight: 500;
+	color: #0b090a;
+	background-color: #f5f3f4;
+	font-size: 17px;
+}
+#quant1{
+	width: 100px;
+	border: none;
+	color: #0b090a;
+	background-color: #f5f3f4;
+	text-align: center;
+	font-size: 17px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+#valor1{
+	width: auto;
+	border: none;
+	color: #0b090a;
+	background-color: #f5f3f4;
+	font-size: 17px;
+	padding-left: none;
+	padding-right: none;
+}
+.diminuir{
+	border-radius: 25%;
+	background: #f5f3f4;
+	box-shadow:  5px 5px 10px #aeadad,-5px -5px 10px #ffffff;
+ 	font-weight: 900;
+ 	color: red;
+}
+.diminuir:hover{
+	background-color: #d3d3d3;
+}
+.aumentar{
+	border-radius:	25%;
+	background: #f5f3f4;
+	box-shadow:  5px 5px 10px #aeadad,-5px -5px 10px #ffffff;
+	font-weight: 900;
+	color: green;
+}
+.aumentar:hover{
+	background-color: #d3d3d3;
+}
+.excluir{
+	border-radius: 25%;
+	background: #f5f3f4;
+	box-shadow:  5px 5px 10px #aeadad,-5px -5px 10px #ffffff;
+ 	font-weight: 900;
+ 	color: red;
+}
+.excluir:hover{
+	background-color: #d3d3d3;
+}
+
+#linha{
+	justify-content: space-between;
+	flex: wrap;
+	padding: 15px;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	border-radius: 10px;
+}
+.quant{
+	width: 25px; 
+	height: 25px;
+	border: none; 
+	text-align: center;
+}
+.produtos{
+	width: 55%;
+	height: 800px;
+	float: left;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.scrollP{
+	width: 100%;
+	height: 700px;
+	overflow: auto;
+}
+#add{
+	width: 100px;
+}
+#footer{
+	width: 100%;
+	height: 75px;
+	background-color: #ba181b;
+	padding: 11px;
+	position: fixed;
+	bottom: 0;
+}
+#total{
+	border-radius: 10px;
+	background-color: #f5f3f4;
+	background: #f5f3f4;
+	box-shadow:  5px 5px 10px #aeadad,-5px -5px 10px #ffffff;
+	position: fixed;
+	bottom: 85px;
+	right: 10px;
+}
+#nomeC{
+	text-align: center;
+	font-size: 20px;
+	font-weight: 500;
+	border-radius: 15px;
+	height: 50px;
+}
+#btn-footer{
+	font-size: 25px;
+	width: 150px;
+	height: 50px;
+	font-weight: 500;
+}
+.comandas{
+	width: 300px;
+	margin: 15px;
+	overflow: hidden;
+	padding-bottom: 10px;
+	text-align: center;
+	border-radius: 10px;
+	background: #dedede;
+	box-shadow:  6px 6px 22px #660302,-6px -6px 22px #ff0706;
+}
+#altera{
+	width: 100px;
+	background-color: #333333;
+	color: #f6f6f6;
+	font-weight: 500;
+}
+#pronta{
+	font-size: 24px;
+}
+#altera:hover{
+	background-color: #f6f6f6;
+	color: #6c757d;
+}
+#butao{
+	width: 100px;
+}
+#pronta{
+	font-size: 25px;
+}
+#cPronta{
+	background-color: green;
+}
+#grid{
+	border-radius: 20px;
+	background: #b90504;
+	box-shadow:  7px 7px 18px #a10403,-7px -7px 18px #d10605;
+	justify-content: center;
+	width: 80%;
+	height: auto;
+	flex: wrap;
+
+}
+#grid-itens{
+	height: 150px;
+	overflow: auto;
+	font-size: 15px;
+	box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.5);
+	background-color: #f5f3f4;
+}
+#comanda-titulo{
+	background-color: #333333;
+	color: #e8e8e8;
+}
+#itens{
+	width: 100%;
+	background-color: #ba181b;
+	color: #f5f3f4;
+}
+#totC{
+	width: auto;
+	font-size: 25px;
+	font-weight: 300;
+	margin: auto;
+	box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.5);
+	background-color: #f5f3f4;
+}
+#lblNome{
+	font-size: 30px;
+	font-weight: 700;
+}
+
+@media only screen and (max-width: 1380px){
+	.produtos{
+		height: 400px;
+	}
+	#comanda{
+		width: 500px;
+		max-height: 400px;
+		overflow: auto;
+	}
+	.scrollP{
+		height: 390px;
+		overflow: auto;
+	}
+	#linha{
+		height: 75px;
+		padding: 5px;
+		padding-top: 10px;
+	}
+	#produto{
+		width: 270px;
+		height: 50px;
+		font-size: 15px;
+	}
+	#quant1{
+		width: auto;
+		height: 50px;
+		font-size: 15px;
+	}
+	#valor1{
+		width: auto;
+		height: 50px;
+		font-size: 15px;
+	}
+}
+@media only screen and (max-width: 800px){
+	#comanda{
+		width: 100%;
+		max-height: 270px;
+		overflow: auto;
+		margin-right: unset;
+		margin-top: 10%;
+	}
+	.produtos{
+		width: 100%;
+		height: 600px;
+		padding: 10px ;
+	}
+	.scrollP{
+		width: 100%;
+		height: 550px;
+		overflow: auto;
+	}
+	#linha{
+		height: unset;
+		justify-content: space-evenly;
+	}
+	#produto{
+		width: 400px;
+	}
+	#quant1{
+		width: 100px;
+	}
+}
+@media only screen and (max-width: 450px){
+	#comanda{
+		width: 100%;
+		max-height: 200px;
+		overflow: auto;
+	}
+	.produtos{
+		width: 100%;
+		height: 350px;
+		margin-top: -20px;
+		padding: 10px;
+	}
+	.scrollP{
+		width: 100%;
+		height: 275px;
+		overflow: auto;
+	}
+	#linha{
+		height: unset;
+		justify-content: space-between;
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	#produto{
+		width: 200px;
+		padding-left: 10px;
+		padding-right: 5px;
+	}
+	#quant1{
+		width: 100px;
+	}
+	#nomeC{
+		width: 150px;
+	}
+	#btn-footer{
+		width: 110px;
+		text-align: center;
+		font-size: 20px;
+	}
+}
