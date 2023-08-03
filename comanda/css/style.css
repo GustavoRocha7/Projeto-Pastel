@@ -232,6 +232,7 @@ body{
 }
 #pronta{
 	font-size: 24px;
+	width: 50px;
 }
 #altera:hover{
 	background-color: #f6f6f6;
@@ -266,6 +267,7 @@ body{
 #comanda-titulo{
 	background-color: #333333;
 	color: #e8e8e8;
+	border-radius: 0;
 }
 #itens{
 	width: 100%;
